@@ -1,0 +1,306 @@
+.container{
+    width:80%;
+    height:100%;
+    margin: 0px auto;
+}
+.banner{
+    background-image:url('../resources/Banner\ Image.png');
+    height:600px;
+    padding:50px 140px 0px 140px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.banner .grettings1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 200px 0px 0px 0px;
+    position: relative;
+}
+.banner .grettings2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900; 
+    height:190px;
+    padding: -300px 0px 0px 0px;
+    
+    
+}
+.offer{
+    color: #FF0000;
+    font-size: 88px;
+    font-weight:700 ;
+    text-align:center;
+    padding: 100px 0px 0px 0px;
+}
+/*holiday part start*/
+.holiday{
+    color: #FF0000;
+    text-align: center;
+    font-family:Inter;
+    font-size:24px ;
+    font-weight:500;
+
+}
+.categories{
+    color: black;
+    text-align: center;
+    font-family:Inter;
+    font-size:48px ;
+    font-weight:700;
+
+}
+/**holiday part end**/
+/**new yr img start**/
+.new-img{
+    text-align: center;
+}
+/*new yr img end*/
+/*midnight start*/
+.midnight-party{
+    background-image:url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    height:600px;
+}
+.midnight-party .text{
+    width:60%;
+    padding:50px 0px 0px 170px;
+}
+ .welcome{
+    color: white;
+    font-family:Merriweather;
+    font-size:64px ;
+    font-weight:900;
+
+}
+.midnight-party .text .para{
+    color: white;
+    font-family:Inter;
+    font-size:18px ;
+    font-weight:400;
+
+}
+ .midnight-party .text .btn-1:hover{
+    color:white;
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:700;
+    background-color:gray;
+} 
+.img24{
+     margin-right:20px; 
+     margin-top: 50px;
+}
+/* midnight end */
+/*cooming soon section start*/
+.comingsoon{
+    display:flex;
+}
+.comingsoon{
+    width: 80%;
+    margin:auto;
+}
+.comingsoon .comingsoon1 .new-best-offer{
+    color:red;
+    font-family:Inter;
+    font-size:24px ;
+    font-weight:500;
+    padding-top: 100px;
+}
+.comingsoon .comingsoon1 .soon{
+    color:black;
+    font-family:Merriweather;
+    font-size:48px ;
+    font-weight:900;
+}
+.comingsoon .comingsoon1 .soonpara p{
+    color:#07021199;
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:400;
+}
+.comingsoon .comingsoon2{
+    border: 10px solid black;
+    border-color: #FF0000;
+    border-radius: 50%;
+}
+
+.comingsoon .comingsoon3 .year{
+    color:red;
+    font-family:Inter;
+    font-size:48px ;
+    font-weight:500;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.comingsoon .comingsoon3 .year-des{
+    color:#07021199;
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:400;
+    padding-left: 50px;
+}
+.comingsoon .comingsoon3 .soon-img{
+    padding-left: 50px;
+}
+
+
+
+/*cooming soon section end*/
+/* protfolio section start*/
+.protfolio{
+    width: 80%;
+    margin:auto;
+    padding:50px 0px 0px 0px;
+
+}
+.protfolio .best-gift {
+    color:#FF0000;
+    font-family:Inter;
+    font-size:24px ;
+    font-weight:500;
+
+}
+        
+.protfolio .our {
+    color:black;
+    font-family:Merriweather;
+    font-size:48px ;
+    font-weight:900;
+}
+.protfolio .our p{
+    margin-top: -10px;
+}
+.protfolio .description {
+    color:#07021199;
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:400;
+}
+.protfolio .description p{
+    margin-top: -20px; 
+}
+.protfolio .img-section1{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.protfolio .img-section2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/*protfolio section end*/
+/*subscription section start*/
+.subscription{
+    margin:auto;
+    width:90%;
+    background-color: #FF00000D;
+    margin-top:100px;
+}
+.subscription .email{
+    text-align: center;
+    padding-top: 100px;
+}
+.subscription .newsletter p{
+    color:#070211;
+    font-family:Merriweather;
+    font-size:48px ;
+    font-weight:900;
+    text-align: center;
+}
+.subscription .newsletter2 p{
+    color:#07021199;
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:400;
+    text-align: center;
+}
+.sub-btn{
+    display: flex;
+    justify-content: center;
+    height: 72px;
+    width:40%;
+    padding-left: 500px;
+}
+.sub-btn .form{
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:700;
+    padding:2px;
+
+}
+
+
+.sub-btn .subscribe-btn p{
+    font-family:Inter;
+    font-size:20px ;
+    font-weight:700;
+    padding:2px;
+ }
+/*subscription section end*/
+/*footer section start*/
+.foot{
+    width:90%;
+    margin:auto;
+    background-color: #070211;
+}
+.fpara{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-para p{
+    color: #FFF;
+    font-family:Inter;
+    font-size:16px ;
+    font-weight:500;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.foot-num p{
+    color: #FFF;
+    font-family:Inter;
+    font-size:16px ;
+    font-weight:500;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.foot .foot-img{
+    text-align: center;
+}
+.rights{
+    display: flex;
+    justify-content: space-between;
+}
+.rights .copywrite p{
+    color: #FFF;
+    font-family:Inter;
+    font-size:16px ;
+    font-weight:500;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.rights .unsubs p{
+    color: #FFF;
+    font-family:Inter;
+    font-size:16px ;
+    font-weight:500;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+/*footer section end*/
+
+    
